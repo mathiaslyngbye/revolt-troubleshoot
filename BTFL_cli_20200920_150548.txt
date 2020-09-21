@@ -1,0 +1,87 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / REVOLT (RVLT) 3.2.1 Oct 15 2017 / 19:44:26 (434db9a36) MSP API: 1.36
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+
+# beeper
+
+# map
+
+# serial
+serial 0 64 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 1 1800 2100
+aux 1 2 1 1800 2100
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set serialrx_provider = IBUS
+set serialrx_halfduplex = ON
+
+# profile
+profile 0
+
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+set rc_expo = 58
+set rc_expo_yaw = 58
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
